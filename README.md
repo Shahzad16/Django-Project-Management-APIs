@@ -1,4 +1,3 @@
-```markdown
 # Project Management API
 
 This is a Django-based REST API for managing projects and tasks. It allows users to register, create projects, assign tasks, and manage access control with roles.
@@ -16,14 +15,6 @@ This is a Django-based REST API for managing projects and tasks. It allows users
 - Django REST Framework
 - Simple JWT for authentication
 - Django Jazzmin for admin panel
-
-## Installation
-
-1. Clone the repository:
-   ```sh
-   git clone <repo-url>
-   cd <project-directory>
-   ```
 
 2. Create a virtual environment and activate it:
    ```sh
