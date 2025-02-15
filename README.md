@@ -16,6 +16,14 @@ This is a Django-based REST API for managing projects and tasks. It allows users
 - Simple JWT for authentication
 - Django Jazzmin for admin panel
 
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Shahzad16/Django-Project-Management-APIs.git
+   cd Django-Project-Management-APIs
+    ```
+
 2. Create a virtual environment and activate it:
    ```sh
    python -m venv venv
