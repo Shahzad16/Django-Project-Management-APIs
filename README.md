@@ -27,7 +27,7 @@ This is a Django-based REST API for managing projects and tasks. It allows users
 2. Create a virtual environment and activate it:
    ```sh
    python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   venv\Scripts\activate
    ```
 
 3. Install dependencies:
@@ -53,7 +53,8 @@ This is a Django-based REST API for managing projects and tasks. It allows users
 ## API Endpoints
 
 ### Authentication
-- `POST /token/` - Obtain JWT access & refresh tokens
+- `POST /users/` - Register a new user
+- `POST /token/` - Login user and obtain JWT access & refresh tokens
 - `POST /token/refresh/` - Refresh access token
 
 ### Users
@@ -80,9 +81,3 @@ Run API tests using:
 ```sh
 python manage.py test
 ```
-
-## License
-This project is open-source and available under the MIT License.
-```
-
-This README provides clear installation steps, usage guidelines, and API details. Let me know if you'd like any modifications! 🚀
