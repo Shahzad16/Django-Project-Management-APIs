@@ -1,4 +1,4 @@
-Here’s a **simple and brief README** for your **Mini Project Management API**:  
+
 
 ```markdown
 # Mini Project Management API  
@@ -48,9 +48,4 @@ python manage.py runserver
 ## 🚀 Bonus Features  
 ✅ **Task Pagination**  
 ✅ **Deployment on PythonAnywhere**  
-
-### 📞 Contact  
-For questions, contact **your.email@example.com**  
 ```
-
-This README is **concise** and **structured**, making it easy to follow. Let me know if you need modifications! 🚀
